@@ -3,9 +3,9 @@
  *                                import helper functions                               *
  *                                                                                      */
 //========================================================================================
-const hashPass = require("../../Helpers/hashPassword");
-const { findOne } = require("../../Helpers/queryHandler");
-const verifyToken = require("../../Helpers/verifyToken");
+const hashPass = require("../Helpers/hashPassword");
+const { findOne } = require("../Helpers/queryHandler");
+const verifyToken = require("../Helpers/verifyToken");
 //########################################################################################
 
 module.exports = async (req, res, next) => {

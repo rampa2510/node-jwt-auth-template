@@ -14,8 +14,8 @@ const express = require("express"),
  *                                                                                      */
 //========================================================================================
 let controllerPath = "./Controllers";
-const registrationController = require(`${controllerPath}/Registration`);
-const loginController = require(`${controllerPath}/Login`);
+const registrationController = require(`${controllerPath}/registration.controller`);
+const loginController = require(`${controllerPath}/login.controller`);
 //########################################################################################
 
 //========================================================================================

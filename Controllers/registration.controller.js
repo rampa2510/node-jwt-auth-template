@@ -3,8 +3,8 @@
  *                                import helper functions                               *
  *                                                                                      */
 //========================================================================================
-const hashPass = require("../../Helpers/hashPassword");
-const { findOne, insertOne } = require("../../Helpers/queryHandler");
+const hashPass = require("../Helpers/hashPassword");
+const { findOne, insertOne } = require("../Helpers/queryHandler");
 const { sign } = require("jsonwebtoken");
 //########################################################################################
 
